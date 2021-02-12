@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Furniture
-{
+public class Furniture {
     private String type;
     private Integer wood;
     private Integer glass;
@@ -24,5 +23,4 @@ public class Furniture
         this.wood = wood;
         this.glass = glass;
     }
-
 }

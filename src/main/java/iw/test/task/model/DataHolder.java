@@ -8,7 +8,6 @@ import java.util.List;
 
 @Component
 @Getter
-public class DataHolder
-{
+public class DataHolder {
     public static List<Furniture> furnitures = new ArrayList<Furniture>();
 }
